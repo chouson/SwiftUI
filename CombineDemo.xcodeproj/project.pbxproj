@@ -14,6 +14,9 @@
 		2572E8C02B5A667C00DC3C53 /* CombineDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572E8BF2B5A667C00DC3C53 /* CombineDemoTests.swift */; };
 		2572E8CA2B5A667C00DC3C53 /* CombineDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572E8C92B5A667C00DC3C53 /* CombineDemoUITests.swift */; };
 		2572E8CC2B5A667C00DC3C53 /* CombineDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572E8CB2B5A667C00DC3C53 /* CombineDemoUITestsLaunchTests.swift */; };
+		2572E8D92B5BBADE00DC3C53 /* CountdownTimerTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572E8D82B5BBADE00DC3C53 /* CountdownTimerTool.swift */; };
+		2572E8DB2B5E1E5700DC3C53 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572E8DA2B5E1E5700DC3C53 /* ContentViewModel.swift */; };
+		2572E8DD2B5E5D0F00DC3C53 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2572E8DC2B5E5D0F00DC3C53 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		2572E8C52B5A667C00DC3C53 /* CombineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CombineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2572E8C92B5A667C00DC3C53 /* CombineDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDemoUITests.swift; sourceTree = "<group>"; };
 		2572E8CB2B5A667C00DC3C53 /* CombineDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2572E8D82B5BBADE00DC3C53 /* CountdownTimerTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerTool.swift; sourceTree = "<group>"; };
+		2572E8DA2B5E1E5700DC3C53 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		2572E8DC2B5E5D0F00DC3C53 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				2572E8AE2B5A667A00DC3C53 /* CombineDemoApp.swift */,
 				2572E8B02B5A667A00DC3C53 /* ContentView.swift */,
+				2572E8DC2B5E5D0F00DC3C53 /* LoginView.swift */,
+				2572E8DA2B5E1E5700DC3C53 /* ContentViewModel.swift */,
+				2572E8D82B5BBADE00DC3C53 /* CountdownTimerTool.swift */,
 				2572E8B22B5A667C00DC3C53 /* Assets.xcassets */,
 				2572E8B42B5A667C00DC3C53 /* Preview Content */,
 			);
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2572E8DB2B5E1E5700DC3C53 /* ContentViewModel.swift in Sources */,
+				2572E8D92B5BBADE00DC3C53 /* CountdownTimerTool.swift in Sources */,
 				2572E8B12B5A667A00DC3C53 /* ContentView.swift in Sources */,
+				2572E8DD2B5E5D0F00DC3C53 /* LoginView.swift in Sources */,
 				2572E8AF2B5A667A00DC3C53 /* CombineDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
